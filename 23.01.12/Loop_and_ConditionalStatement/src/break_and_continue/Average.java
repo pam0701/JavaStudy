@@ -1,3 +1,6 @@
+//사용자가 입력한 점수의 평균을 내는 프로그램
+//사용자가 음수를 입력하면 break에 의해 반복 루프를 종료
+
 package break_and_continue;
 
 import java.util.Scanner;
