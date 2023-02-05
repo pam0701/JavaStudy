@@ -13,7 +13,7 @@ class Car{
 		speed = s;
 		gear = g;
 		//자동차의 개수를 증가, id 번호를 할당한다. 
-		id=+numberOfCars;
+		id=++numberOfCars;
 	}
 	//정적 메소드 
 	public static int getNumberOfCars() {
@@ -30,5 +30,4 @@ public class CarTest {
 		int n = Car.getNumberOfCars();
 		System.out.println("지금까지 생성된 자동차 수 = " + n);
 	}
-
 }
